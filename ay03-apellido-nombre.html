@@ -1,27 +1,55 @@
 <html>
     <head>
         <title>El pino</title>
+        <link rel="stylesheet" href="estilo.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="aplicacion.js"></script>
     </head>
     <body>
-        <h1>El pino</h1>
+        <header id="cabecera">
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Proyecto</a></li>
+                    <li><a href="#">Quienes somos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <h1 class="destacado">El pino</h1>
+            <button id="boton2"> cambia el titulo </button>
+        </div>
         <hr>
-        <p>Pinus es un género de plantas vasculares (generalmente árboles y raramente arbustos), comúnmente llamadas pinos, pertenecientes al grupo de las coníferas y, dentro de este, a la familia de las Pinaceae, que presentan una ramificación frecuentemente verticilada y más o menos regular.</p>
-        <p>Dentro del genero Pinus, las plantas mas reconocidas son:</p>
+        <div>
+            <p class="texto">Pinus es un género de plantas vasculares (generalmente árboles y raramente arbustos), comúnmente llamadas pinos, pertenecientes al grupo de las coníferas y, dentro de este, a la familia de las Pinaceae, que presentan una ramificación frecuentemente verticilada y más o menos regular.</p>
+        </div>
+        <div>
+            <p class="texto">Dentro del genero Pinus, las plantas mas reconocidas son:</p>
+        </div>
         <nav>
             <ul>
                 <li><a href="https://es.wikipedia.org/wiki/Pinus_cembra">Pinus Cembra</a> </li>
                 <li><a href="https://es.wikipedia.org/wiki/Pinus_sylvestris">Pinus Sylvestris</a> </li>
-                <li><a href="https://es.wikipedia.org/wiki/Pinus_pinaster">Pinus Sylvestris</a> </li>
+                <li><a href="https://es.wikipedia.org/wiki/Pinus_pinaster">Pinus Pinaster</a> </li>
             </ul>
         </nav>
-        <h3>Caracteristicas fisicas</h3>
-        <p>La copa puede ser piramidal o redondeada y, en los árboles adultos, ancha y deprimida. Los macroblastos presentan hojas escuamiformes sin clorofila, mientras que los braquiblastos son muy cortos, con una vaina membranosa de escamas y están terminados por dos a cinco hojas lineares o acículas, con dos o más canales resiníferos cada una.</p>
         <div>
-            <img src="https://viverochillan.cl/wp-content/uploads/2020/06/P20.jpg" width="300" alt="pino"/>
+            <h3 class="subtitulo">Caracteristicas fisicas</h3>
         </div>
-        <p>Los conos masculinos se desarrollan en la base de los brotes anuales. Los estróbilos presentan escamas persistentes, siendo las tectrices rudimentarias e inclusas y las seminíferas suele presentar una protuberancia u ombligo en su parte externa (apófosis). Maduran bienal o trienalmente. Las semillas, de forma, color y tamaño variables, son ápteras o con alas articuladas o íntimamente soldadas con su testa más o menos lignificada.</p>
+        <p class="mover">La copa puede ser piramidal o redondeada y, en los árboles adultos, ancha y deprimida. Los macroblastos presentan hojas escuamiformes sin clorofila, mientras que los braquiblastos son muy cortos, con una vaina membranosa de escamas y están terminados por dos a cinco hojas lineares o acículas, con dos o más canales resiníferos cada una.</p>
         <div>
-            <img src="https://www.jardineriaon.com/wp-content/uploads/2018/06/Hojas-del-pino-silvestre.jpg" width="300" alt="cono del pino"/>
+            <img src="https://viverochillan.cl/wp-content/uploads/2020/06/P20.jpg" width="200" alt="pino"  class="imagen"/>
+        </div>
+        <p class="mover">Los conos masculinos se desarrollan en la base de los brotes anuales. Los estróbilos presentan escamas persistentes, siendo las tectrices rudimentarias e inclusas y las seminíferas suele presentar una protuberancia u ombligo en su parte externa (apófosis). Maduran bienal o trienalmente. Las semillas, de forma, color y tamaño variables, son ápteras o con alas articuladas o íntimamente soldadas con su testa más o menos lignificada.</p>
+        <div>
+            <img src="https://www.jardineriaon.com/wp-content/uploads/2018/06/Hojas-del-pino-silvestre.jpg" width="300" alt="cono del pino" class="imagen"/>
+        </div>
+        <div>
+            <p id="izq">Los pinos son importantes en nuestra sociedad ya que limpian nuestros aires y son una alta fuente de actividad economica</p>            
+            <h3 id="ultimo" class="texto"> MUCHAS GRACIAS POR LEER! <3</h3>
+        </div>
+        <div>
+            <button id="click"> Escondeme!</button>
         </div>
     </body>
 </html>
