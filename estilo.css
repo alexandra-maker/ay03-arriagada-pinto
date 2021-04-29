@@ -1,0 +1,47 @@
+#cabecera{
+    background-color: rgb(218, 174, 215);
+    color: blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.destacado{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgb(218, 174, 215);
+}
+.texto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color:rgb(39, 6, 70)
+}
+.subtitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(112, 65, 109);
+}
+.mover{
+    background-color: rgb(218, 174, 215);
+    float: left;
+    width: 600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color:white
+}
+.imagen{
+    float: left;
+    width: 350;
+    background-color: blue;
+}
+#izq{
+    float:right;
+    background-color: rgb(218, 174, 215);
+    width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color:white
+}
+#ultimo{
+    position: absolute;
+    top: 1000px;
+    background-color: rgb(218, 174, 215);
+
+}
